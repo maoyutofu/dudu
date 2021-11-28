@@ -1,0 +1,27 @@
+[package]
+name = "dudu"
+version = "0.1.0"
+authors = ["tangjz"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+actix-session = "0.4.0"
+serde = "1.0.123"
+serde_json = "1.0"
+rusqlite = { version="0.24.2", features = ["bundled"] }
+actix = "0.10.0"
+rusty_ffmpeg = "0.7.0"
+futures = "0.3"
+uuid = { version="0.8", features = ["v4"] }
+md5 = "0.7.0"
+env_logger = "0.8"
+log = "0.4"
+# actix-files = "0.5.0"
+toml = "0.5"
+
+[dependencies.async-std]
+version = "1.9"
+features = ["attributes"]
