@@ -57,6 +57,3 @@ cargo build --quiet && target/debug/dudu
 
 ![image-20211128190330160](./static/images/image-20211128190330160.png)
 
-## 六、注意事项
-
-嘟嘟推流只是个人学习作品、暂未在商业项目中使用，其稳定性有待验证，如要使用请谨慎考虑。
